@@ -1,5 +1,6 @@
-html body {
+* {
     margin: 0%;
+    padding: 0%;
 }
 #fundo {
     background-color: orange;
@@ -21,19 +22,42 @@ html body {
     margin: 0%;
 }
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    color: orange;
+    justify-content: center;
+    margin: 6%;
 }
 p {
-    text-align: justify;
-    width: 90%;
-    padding: 10%;
+    width: 60%;
+    margin: 0%;
+    padding: 1%;
+    font-size: 25px;
 }
-section {
-    display: inline-flex;
+#producao prod {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
-.imagem1 img {
+.coluna1 {
+    padding: 0, 5 0 5%;
     width: 100%;
     float: left;
-    height: 50%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
 }
+.foto {
+    width: 400px;
+    padding: 0% 2% 2% 5%;
+}
+.rodape {
+    text-align: center;
+    font-size: 15px;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
